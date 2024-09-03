@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0 !important;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sectionup h2{
+    font-weight: 200px;
+}
+
+select{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.sectionup{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+ .icons button{
+    padding: 5px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+ }
+ 
+ .p1{
+    color: white;
+    font-size: 16px;
+ }
+
+ .text{
+    background-color: black;
+    padding: 10px;
+ }
+
+ .container{
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/9775872/pexels-photo-9775872.jpeg?auto=compress&cs=tinysrgb&w=1000);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+ }
+.container button{
+    border-radius: 25px;
+    margin-top: 25px;
+    padding: 15px 30px 15px 30px;
+    border: none;
+}
+
+.container h1{
+    font-size: 50px;
+}
+
+.container p{
+    margin-top: 10px;
+}
+
+.sec3{
+    padding: 20px;
+}
+.secbut{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 0px 0px;   
+}
+.secbut ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.secbut button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.secbut button:hover{
+    background-color: black;
+    color: white;
+}
+

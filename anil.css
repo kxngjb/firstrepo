@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gen{
+    width: 100%;
+    height: 100vh;
+    background: url(image/rrrr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.image img{
+    width: 100%;
+    
+
+    
+}
+.image{
+    width: 500px;
+    position: absolute;
+    top: 350px;
+    right: 950px;
+    animation: car 3s  infinite linear ;
+}
+@keyframes car {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(1500px);
+    }
+}

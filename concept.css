@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-bottom: 1px solid black;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.logo li{
+    width: 50px;
+    list-style-type: none;
+}
+.gen{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+}
+.side1{
+    background-color: rgb(172, 168, 168);
+    border-right: 1px solid black;
+}
+.in{
+    list-style-type: none;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.icons{
+    padding-top: 50px;
+    border-bottom: 1px solid black;
+}
+
+.by{
+    width: 10px;
+}

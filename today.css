@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.general{
+    overflow: hidden;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.box img{
+    width: 100%;
+}
+.image{
+    width: 300px;
+}
+.box{
+    background-color: #f7f3eb;
+}
+.hover{
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 330px;
+
+}
+.box:hover .hover{
+    display: block;
+}

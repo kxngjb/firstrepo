@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1{
+    background-color: #e8eaed;
+}
+
+.left h1{
+    color: white;
+    font-size: 100px;
+    text-shadow: 2px 2px 3px gray;
+}
+
+nav{
+    background-color: white;
+}
+
+.right{
+    width: 500px;
+}
+
+.left{
+    margin-top: 100px;
+}
+
+.left p{
+    font-weight: 500;
+}

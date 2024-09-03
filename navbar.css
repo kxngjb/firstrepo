@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo h1{
+    color: #005cbb;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e9eefa;
+}
+.vv span{
+    position: relative;
+}
+.vv span{
+    position: absolute;
+    left: 890px;
+}
+.navi{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.bt{
+    background-image: url(image/aboutuspic.jpg);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background-position: center;
+}
+.fr{
+    background-image: url(image/medium-shot-.avif);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 200px;
+    background-size: cover;
+}
+.pp{
+    background-image: url(image/photo-17.avif);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 400px;
+}
+.iu{
+    background-image: url(image/premium_photo.avif);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 550px;
+    z-index: -1;
+}
+.all{
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+}
+.last{
+    background-image: url(image/unilag\ logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 100px; 
+    left: 300px;
+    z-index: 2;
+}

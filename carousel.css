@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.ffp{
+    object-fit: cover;
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+
+.carousel-inner img{
+    height: 100vh;
+    object-fit: cover;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    position: relative;
+    background-color: brown;
+    width: 50px;
+    height: 50px;
+}
+
+.bh{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    gap: 10px;
+}
